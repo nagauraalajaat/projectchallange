@@ -8413,3 +8413,99 @@ button:disabled {
         max-height: none;
     }
 }
+
+
+
+
+
+
+
+/* Main Content Styling */
+main {
+    padding: 30px;
+    padding-top: calc(100px + 20px);
+}
+
+.internship-page {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.internship-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.internship-info {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #007BFF;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.application-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.application-form input, .application-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.application-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.application-form button:hover {
+    background-color: #218838;
+}
+
+/* Video Card Styling */
+.video-card {
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.video-container iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .internship-page {
+        padding: 20px;
+    }
+
+    .video-container iframe {
+        width: 100%;
+        max-width: 100%;
+    }
+}

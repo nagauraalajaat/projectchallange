@@ -8291,3 +8291,125 @@ a.social_bt.google:before {
     font-size: 1em;
     color: #555;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main Content Styling */
+main {
+    padding: 30px;
+    padding-top: calc(100px + 20px);
+}
+
+.requirements-page {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.columns-container {
+    display: flex;
+    gap: 20px;/* Spacing between the columns */
+}
+
+.column {
+    flex: 1;
+    max-height: 500px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.job p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: #007BFF;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+button:disabled {
+    background-color: #FF4D4D;
+    cursor: not-allowed;
+}
+
+.closed-btn {
+    background-color: #FF4D4D;
+    color: white;
+}
+
+/* Application Form */
+.application-form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.application-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.application-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.application-form button:hover {
+    background-color: #218838;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .columns-container {
+        flex-direction: column;
+    }
+
+    .column {
+        max-height: none;
+    }
+}

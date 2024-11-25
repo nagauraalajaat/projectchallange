@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recruitment - Buy One Gram Private Limited</title>
+
+    <!-- Linking Stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/vendors.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Section */
+        .header {
+            background-color: #fff;
+            padding: 20px 0;
+        }
+
+        .header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            color: #333;
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        .header .menu {
+            display: flex;
+            gap: 30px;
+        }
+
+        .header .menu a {
+            color: #333;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+        }
+
+        .header .menu a:hover {
+            color: #007bff;
+        }
+
+        /* Recruitment Page Section */
+        .recruitment-section {
+            background-color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .recruitment-section h2 {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 40px;
+        }
+
+        .recruitment-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .job-card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .job-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .job-card h3 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .job-card p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .apply-btn {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: 500;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .apply-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Apply Now Form Section */
+        .apply-form-section {
+            background-color: #f4f4f4;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .apply-form-section h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .apply-form {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            width: 500px;
+            margin: 0 auto;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .apply-form input,
+        .apply-form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .apply-form input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            padding: 15px;
+        }
+
+        .apply-form input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .recruitment-list {
+                flex-direction: column;
+            }
+
+            .job-card {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .apply-form-section {
+                padding: 40px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div id="logo">
+                <a href="https://buyonegram.com">
+                    <img src="C:\Users\Defence Ministry\Documents\b1g\buyonegram.com\logo\logo.png" width="200" height="50" alt="Buy One Gram Logo">
+                </a>
+            </div>
+            <nav class="menu">
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="https://buyonegram.com/recruitment.php">Recruitment</a>
+                <a href="https://buyonegram.com/about.php">About</a>
+                <a href="https://buyonegram.com/contact.php">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Recruitment Section -->
+    <section class="recruitment-section">
+        <h2>Join Our Team at Buy One Gram</h2>
+        <p>We are always looking for talented individuals to join our growing team. Explore the current opportunities below and apply to be a part of our dynamic team.</p>
+
+        <!-- Job Listings -->
+        <div class="recruitment-list">
+            <!-- Job Card 1 -->
+            <div class="job-card">
+                <h3>Marketing Manager</h3>
+                <p>We are looking for a creative marketing manager with experience in digital marketing and brand development.</p>
+                <a href="#apply-now" class="apply-btn">Apply Now</a>
+            </div>
+
+            <!-- Job Card 2 -->
+            <div class="job-card">
+                <h3>Product Manager</h3>
+                <p>Looking for an experienced product manager to oversee the launch and growth of new products.</p>
+                <a href="#apply-now" class="apply-btn">Apply Now</a>
+            </div>
+
+            <!-- Job Card 3 -->
+            <div class="job-card">
+                <h3>Sales Executive</h3>
+                <p>Join our sales team and drive new business with excellent communication and negotiation skills.</p>
+                <a href="#apply-now" class="apply-btn">Apply Now</a>
+            </div>
+
+            <!-- Job Card 4 -->
+            <div class="job-card">
+                <h3>Customer Support Specialist</h3>
+                <p>Looking for a customer support expert to help provide exceptional service to our clients.</p>
+                <a href="#apply-now" class="apply-btn">Apply Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apply Now Form Section -->
+    <section id="apply-now" class="apply-form-section">
+        <h2>Apply Now</h2>
+        <p>Please fill out the form below to apply for any of the open positions at Buy One Gram.</p>
+
+        <form class="apply-form">
+            <input type="text" name="full-name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="tel" name="phone" placeholder="Phone Number" required>
+            <textarea name="cover-letter" placeholder="Cover Letter" rows="5" required></textarea>
+            <input type="submit" value="Submit Application">
+        </form>
+    </section>
+
+</body>
+
+</html>

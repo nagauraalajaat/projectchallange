@@ -2,61 +2,7 @@
 <html lang="en">
 
 <head>
-
-    <!-- exempt
-    <script type="module">
-        // Firebase App and Firestore SDK are loaded via module imports
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
-        import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-firestore.js";
-        
-        // Your Firebase config object (replace with your actual credentials)
-        const firebaseConfig = {
-          apiKey: "AIzaSyBUwMj36mbHmUUBQxAPEv_m-i8-lzEELWw",
-          authDomain: "buy-one-gram-employees.firebaseapp.com",
-          projectId: "buy-one-gram-employees",
-          storageBucket: "buy-one-gram-employees.firebasestorage.app",
-          messagingSenderId: "799737329021",
-          appId: "1:799737329021:web:aac3a0320befe0ed0e8814",
-          measurementId: "G-DYN4CQDNSD"
-        };
-
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const db = getFirestore(app);
-
-        // Fetch the image URL from Firestore and display it
-        async function fetchImageURL() {
-            const docRef = doc(db, "homepage", "product");
-
-            try {
-                const docSnap = await getDoc(docRef);
-
-                if (docSnap.exists()) {
-                    const imageUrl = docSnap.data().product.trim(); // Get the image URL from Firestore
-
-                    
-
-                    if (imageUrl) {
-                        const imgElement = document.createElement('img');
-                        imgElement.src = imageUrl;  // Set the src to the URL from Firestore
-                        imgElement.alt = "Product Image";  // Set alt text for the image
-                        document.getElementById('image-container').appendChild(imgElement);  // Append image to the container
-                    } else {
-                        console.error("No image URL found in Firestore document");
-                    }
-                } else {
-                    console.error("No document found!");
-                }
-            } catch (error) {
-                console.error("Error fetching image URL from Firestore: ", error);
-            }
-        }
-        window.onload = function() {
-    fetchImageURL();  // Fetch the image URL and append it to the container
-}; -->
     </script>
-
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
